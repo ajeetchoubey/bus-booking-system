@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://ajeet:xk2l0e3pSGt6SQcq@cluster0.hjhpnbx.mongodb.net/bus_booking_system"
+  // db_url
 );
 
 const userSchema = mongoose.Schema({
